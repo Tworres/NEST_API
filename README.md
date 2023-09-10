@@ -25,6 +25,13 @@ $ npm install
 $ npm run db:dev:up
 ```
 
+## sync DB
+
+```bash
+# run it with the app server off
+$ npx prisma migrate dev
+```
+
 ## Running the app
 
 ```bash
