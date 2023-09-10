@@ -1,0 +1,15 @@
+version: '4.2'
+services:
+  dev-db:
+    image: postgres:13
+    ports: 
+    - 5534:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: nest
+    networks:
+      - freecodecamp
+    command: ["postgres", "-c", "listen_addresses=0.0.0.0"]
+networks:
+ freecodecamp:
