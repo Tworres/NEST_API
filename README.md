@@ -49,7 +49,7 @@ $ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
-``
+```
 
 ## This API already include
 <ul>
@@ -59,5 +59,5 @@ $ npm run test:cov
   <li>Config Module already integrated</li>
   <li>Docker-compose ready to edit</li>
   <li>Prisma ready to edit</li>
-  <li>...MORE COMING SOON </li>
+  <li>... AND MORE COMING SOON</li>
 </ul>
